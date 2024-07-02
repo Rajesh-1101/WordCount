@@ -12,7 +12,7 @@ object WordCount {
 
     try {
       // Read input text file into an RDD
-      val inputPath = "Data/wordcount.txt"
+      val inputPath = "C:\Users\zuran\IdeaProjects\Data\wordcount.txt"
       val textFile = sc.textFile(inputPath)
 
       // Perform word count
